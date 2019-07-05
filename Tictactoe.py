@@ -35,7 +35,7 @@ def winner_checker():
         print(f'PLAYER 1 has won the tic tac toe match {player1}')
         print('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%')
         won += 1
-        replay()
+        replay() 
     elif (board[1] == player2 and board[2] == player2 and board[3] == player2) or (board[4] == player2 and board[5] == player2 and board[6] == player2) or (board[7] == player2 and board[8] == player2 and board[9] == player2) or (board[1] == player2 and board[5] == player2 and board[9] == player2) or (board[3] == player2 and board[5] == player2 and board[7] == player2) or (board[9] == player2 and board[6] == player2 and board[3] == player2) or (board[2] == player2 and board[5] == player2 and board[8] == player2) or (board[1] == player2 and board[4] == player2 and board[7] == player2):
         clear_output()
         print('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%')
